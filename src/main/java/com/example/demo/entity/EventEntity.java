@@ -4,11 +4,10 @@ import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+@NoArgsConstructor
 @Entity
 @Table(name = "ias_event")
 @Data
-@Builder(toBuilder = true)
 public class EventEntity {
 
     @Id

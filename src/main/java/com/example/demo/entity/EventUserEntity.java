@@ -3,11 +3,12 @@ package com.example.demo.entity;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "event_x_user")
 @Data
-@Builder(toBuilder = true)
+@NoArgsConstructor
 public class EventUserEntity {
 
     @Id
