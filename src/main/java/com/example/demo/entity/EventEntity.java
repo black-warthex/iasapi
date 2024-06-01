@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "ias_event")
 @Data
-@Builder(toBuilder = true)
+@NoArgsConstructor
 public class EventEntity {
 
     @Id
